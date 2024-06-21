@@ -70,8 +70,8 @@ http://127.0.0.1:5000/ (for development) or http://127.0.0.1:8000/ (for producti
 2. Create a new to-do item::
     ```bash
         POST /api/todos
-        ```
-    - Request body:
+    ```
+    Request body:
     {
         "title": "New Todo"
     }
